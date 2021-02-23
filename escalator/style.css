@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.logo {
+  width: 10%;
+}
+
+.hero {
+  padding: 6% 0;
+  height: 600px;
+  background-image: url(img/header-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.hero h2 {
+  color: #fff;
+  font-size: 4rem;
+  text-align: center;
+  font-weight: bold;
+  line-height: 1.2em;
+}
+
+.btn-hero {
+  background-color: #fff;
+  padding: 15px 80px;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}
