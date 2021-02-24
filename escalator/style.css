@@ -5,6 +5,12 @@
   font-family: 'Poppins', sans-serif;
 }
 
+.container {
+  margin: 0 auto;
+  padding-bottom: 10%;
+  max-width: 1200px;
+}
+
 .logo {
   width: 10%;
 }
@@ -21,7 +27,7 @@
   align-items: center;
 }
 
-.hero h2 {
+.hero h1 {
   color: #fff;
   font-size: 4rem;
   text-align: center;
@@ -35,4 +41,91 @@
   text-decoration: none;
   color: black;
   text-transform: uppercase;
+}
+
+.title {
+  background-color: #fff;
+  padding: 50px 1.5%;
+}
+
+.title h2 {
+  font-size: 3em;
+  color: rgb(34, 33, 33);
+
+}
+
+.title p {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: rgb(44, 44, 44);
+}
+
+.grid {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid li {
+  height: 350px;
+  padding: 15px;
+  background-clip: content-box;
+  background-size: cover;
+  background-position: center;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+
+.grid li.small {
+  width: 30%;
+}
+
+.grid li.large {
+  width: 70%;
+}
+
+.grid li.small2 {
+  width: 30%;
+}
+
+.grid li.large2 {
+  width: 70%;
+}
+.small {
+  background-image: url(img/nature.jpg); 
+}
+
+.small2 {
+  background-image: url(img/pictures.jpg);
+}
+
+.large {
+  background-image: url(img/daily.jpg);
+}
+
+.large2 {
+  background-image: url(img/analysis.jpg);
+  align-items: flex-end;
+}
+
+.medium {
+  background-image: url(img/together.jpg);
+  width: 100%;
+  justify-content: center;
+}
+
+.card-title {
+  font-size: 2.5em;
+  text-transform: lowercase;
+  padding-bottom: 0!important;
+}
+
+.card-title, .card-description {
+  padding: 10px 25px;
+}
+
+.card-description {
+  padding-top: 0!important;
 }
