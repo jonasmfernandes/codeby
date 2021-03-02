@@ -7,12 +7,13 @@
 
 .container {
   margin: 0 auto;
-  padding-bottom: 10%;
+  padding: 0 2%;
   max-width: 1200px;
+  padding-bottom: 6%;
 }
 
 .logo {
-  width: 10%;
+  width: 120px;
 }
 
 .hero {
@@ -27,7 +28,7 @@
   align-items: center;
 }
 
-.hero h1 {
+.hero .header-title {
   color: #fff;
   font-size: 4rem;
   text-align: center;
@@ -41,20 +42,21 @@
   text-decoration: none;
   color: black;
   text-transform: uppercase;
+  font-weight: bold;
 }
 
-.title {
+.categories-title {
   background-color: #fff;
-  padding: 50px 1.5%;
+  padding: 50px 15px;
 }
 
-.title h2 {
+.categories-title h2 {
   font-size: 3em;
   color: rgb(34, 33, 33);
 
 }
 
-.title p {
+.categories-title p {
   font-size: 1.2em;
   font-weight: bold;
   color: rgb(44, 44, 44);
@@ -79,19 +81,19 @@
 }
 
 .grid li.small {
-  width: 30%;
+  width: 35%;
 }
 
 .grid li.large {
-  width: 70%;
+  width: 65%;
 }
 
 .grid li.small2 {
-  width: 30%;
+  width: 35%;
 }
 
 .grid li.large2 {
-  width: 70%;
+  width: 65%;
 }
 .small {
   background-image: url(img/nature.jpg); 
@@ -117,15 +119,96 @@
 }
 
 .card-title {
-  font-size: 2.5em;
+  font-size: 3em;
   text-transform: lowercase;
-  padding-bottom: 0!important;
-}
-
-.card-title, .card-description {
-  padding: 10px 25px;
+  padding-bottom: 0;
 }
 
 .card-description {
-  padding-top: 0!important;
+  font-weight: bold;
+}
+.card-title, .card-description {
+  padding: 15px 25px 0px 25px;
+}
+
+.container-footer {
+  padding: 5% 7%;
+  background-color: rgba(204, 204, 204, 0.3);
+}
+
+.footer-title {
+  font-size: 3.5em;
+  color: rgb(44, 44, 44);
+  padding-left: 3%;
+  
+}
+.footer-description {
+  color: rgb(44, 44, 44);
+  font-weight: bold;
+  line-height: 2em;
+  padding-left: 3%;
+  font-size: 1.1em;
+}
+
+.graph-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.column {
+  width: 200px;
+}
+
+.column .header {
+  padding: 15px 0;
+  background-color: #1b558f;
+}
+
+.column .header h4 {
+  font-size: 2.2em;
+  padding-left: 25px;
+  color: #fff;
+}
+
+.column .header p {
+  padding-left: 25px;
+  font-size: 1.3em;
+  color: #fff;
+  font-weight: bold;
+}
+
+.column .content {
+  background-color: #1976D2;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.column .content p {
+  color: #fff;
+  font-size: 0.8em;
+  margin: 0 auto;
+  padding: 15px;
+  display: flex;
+}
+
+.column2 .content {
+  height: 15vh;
+}
+
+.column3 .content {
+  height: 20vh;
+}
+
+.column4 .content {
+  height: 25vh;
+}
+
+.column5 .content {
+  height: 30vh;
+}
+
+.column6 .content {
+  height: 35vh;
 }
