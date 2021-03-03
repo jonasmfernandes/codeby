@@ -5,15 +5,8 @@
   font-family: 'Poppins', sans-serif;
 }
 
-.container {
-  margin: 0 auto;
-  padding: 0 2%;
-  max-width: 1200px;
-  padding-bottom: 6%;
-}
-
 .logo {
-  width: 120px;
+  width: 150px;
 }
 
 .hero {
@@ -43,6 +36,12 @@
   color: black;
   text-transform: uppercase;
   font-weight: bold;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 6%;
+  padding-bottom: 6%;
 }
 
 .categories-title {
@@ -211,4 +210,36 @@
 
 .column6 .content {
   height: 35vh;
+}
+
+/* responsive design */
+@media (max-width: 580px) {
+  .hero .header-title {
+    font-size: 1em;
+  }
+}
+@media (max-width: 768px) {
+  .hero {
+    padding: 9% 0;
+  }
+  .hero .header-title {
+    font-size: 3.5rem;
+  }
+}
+@media (min-width: 1361px) {
+  .hero {
+    padding: 5% 0;
+  }
+}
+
+@media (min-width: 1441px) {
+  .hero {
+    padding: 4% 0;
+  }
+}
+
+@media (min-width: 2001px) {
+  .hero {
+    padding: 3%;
+  }
 }
