@@ -5,6 +5,7 @@
   font-family: 'Poppins', sans-serif;
 }
 
+/* header */
 .logo {
   width: 150px;
 }
@@ -38,6 +39,7 @@
   font-weight: bold;
 }
 
+/* container-main */
 .container {
   margin: 0 auto;
   padding: 0 6%;
@@ -130,6 +132,7 @@
   padding: 15px 25px 0px 25px;
 }
 
+/* footer */
 .container-footer {
   padding: 5% 7%;
   background-color: rgba(204, 204, 204, 0.3);
