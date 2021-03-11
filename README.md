@@ -5,7 +5,7 @@ A project for the selection process of the company Codeby. Junior Front-end Deve
 
 This project was created using:
 - HTML5 and CSS3 (Flexbox)
-- 
+
 # Hosting
 
 This site is being hosted for free by: jonasmfernandes-escalator.netlify.app
