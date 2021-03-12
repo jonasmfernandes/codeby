@@ -14,4 +14,4 @@ This project was created using:
 # Hosting
 
 This site is being hosted for free by Netlify: 
-[Escalator](jonasmfernandes-escalator.netlify.app)
+[Escalator](http://jonasmfernandes-escalator.netlify.app)
